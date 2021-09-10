@@ -55,10 +55,10 @@ ul li a::after{
 }
 ul li:hover a::before{
     top: -3px;  left: 7px;
-    color: #ff5722;
+    color: #ff3c00;
 }
 ul li:hover a::after{
     top: 3px;  left: -7px;
-    color: #ff5722;
+    color: #ff3c00;
 }
 
