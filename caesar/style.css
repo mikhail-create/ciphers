@@ -1,28 +1,37 @@
- body{
+body {
     margin: 0;
     display: flex;
     align-items:center;
     justify-content: center;
 }
-#input{
-    font-size: 20px;
-    height: 75px;
-    width: 150px;
-    background-color: wheat;
-    margin: 50px;
+
+textarea {
+    margin: 50px 0 0 50px;
+    width: 400px;
+    height: 125px;
+    font-size: 25px;
+} 
+.cipher_area {
+    margin-top: 125px;
+    width: 500px;
+    height: fit-content;
+    background-color: gainsboro;
+    border-radius: 25px;
+    border: solid 1px black;
 }
-#output{
-    font-size: 20px;
-    height: 75px;
-    width: 150px;
-    background-color: wheat;
-    margin: 50px;
+
+.cipher_area__buttons {
+    width: 250px;
+    margin: 25px 0 25px 150px;
+    height: fit-content;
 }
+
 .btn{
+    margin-bottom: 10px;
+    margin-right: 8px;
     border-style: none;
     height: 25px;
-    width: 125px;
+    width: 100px;
     color: white;
     background-color: #262626;;
-    margin: 10px;
 }

@@ -8,11 +8,15 @@
     <title>Affine</title>
 </head>
 <body>
+    <div class="cipher_area">
         <textarea placeholder="Текст" name="user-text" id="input" cols="40" rows="3"></textarea>
         <textarea readonly id="output" cols="40" rows="3"></textarea>
-        <button class="btn" id="btn-reset">Очистить</button>
-        <button class="btn" id="btn-crypt">Зашифровать</button>
-        <button class="btn" id="btn-decrypt">Дешифровать</button>
-        <script src="affine.js"></script>
+        <div class="cipher_area__buttons">
+            <button class="btn" id="btn-reset">Очистить</button>
+            <button class="btn" id="btn-crypt">Зашифровать</button>
+            <button class="btn" id="btn-decrypt">Дешифровать</button>
+        </div>
+    </div>
+    <script src="affine.js"></script>
 </body>
 </html>
