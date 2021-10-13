@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XOR</title>
+</head>
+<body>
+    <div class="cipher_area">
+        <textarea placeholder="Текст" name="user-text" id="input" cols="40" rows="3"></textarea>
+        <textarea placeholder="Ключ" name="user-key" id="input-key" cols="40" rows="3"></textarea>
+        <textarea readonly id="output" cols="40" rows="3"></textarea>
+        <div class="cipher_area__buttons">
+            <button class="btn" id="btn-encrypt">Зашифровать</button>
+            <button class="btn" id="btn-decrypt">Дешифровать</button>
+        </div>
+    </div>
+    <script src="xor.js"></script>
+</body>
+</html>
