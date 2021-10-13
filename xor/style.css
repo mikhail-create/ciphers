@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+textarea {
+    margin: 50px 0 0 50px;
+    width: 400px;
+    height: 125px;
+    font-size: 25px;
+} 
+.cipher_area {
+    margin-top: 50px;
+    width: 500px;
+    height: fit-content;
+    background-color: gainsboro;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.cipher_area__buttons {
+    width: 250px;
+    margin: 25px 0 25px 150px;
+    height: fit-content;
+}
+
+.btn{
+    border-style: none;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: #262626;;
+}

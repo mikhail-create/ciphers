@@ -23,7 +23,6 @@ function decrypt(word,keyword) {
 }
 
 EnCrypt.addEventListener('click', function() {
-  console.log("w");
   toEncrypt = InputText.value;
   Key = InputKey.value;
   OutputText.value = (encrypt(toEncrypt, Key).toLowerCase());
